@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container" id="logo-container">
+        <h1>Jimmy's Diner</h1>
+        <p class="subtitle">The best burgers and pizzas in town.</p>
+      </div>
+    </header>
+    <main>
+      <div class="container" id="container"></div>
+
+      <div id="modal" class="hidden">
+        <h2 class="modal-heading">Enter your card details</h2>
+        <form action="#" method="post" id="pay-form" data-action="pay">
+          <input
+            type="text"
+            placeholder="Enter your name"
+            name="name"
+            class="input-box"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Enter card number"
+            class="input-box"
+            required
+          />
+          <input
+            type="text"
+            placeholder="Enter your CVV"
+            class="input-box"
+            required
+          />
+          <button class="order-btn">Pay</button>
+        </form>
+      </div>
+    </main>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
+
+<!-- <div id="cart">
+  <h2 class="cart-heading">Your Order</h2>
+  <div class="cart-items">
+    <div class="items-added-price" id="items-added-price">
+      <div class="items-added">
+        <h3>///////</h3>
+        <button class="remove-btn">REMOVE</button>
+      </div>
+      <p id="item-price">$///////</p>
+    </div>
+  
+    <div class="cost">
+      <h3>Total Price</h3>
+      <p><strong>$//////////}</strong></p>
+    </div>
+  </div>
+  <button class="order-btn">Complete Order</button>
+  </div>
+  <div class="thank-you hidden">
+            <p>Thanks James! Your order is on its way!!</p>
+          </div> -->
